@@ -36,3 +36,4 @@ class PostControllerTest extends TestCase
 //     CODECOV_TOKEN: ${{ secrets.CODECOV_TOKEN }}
 //run: vendor/bin/phpunit --coverage-clover coverage.xml
 // modified the file
+// run: vendor/bin/phpunit --coverage-clover coverage.xml
