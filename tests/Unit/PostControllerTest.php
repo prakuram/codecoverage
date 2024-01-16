@@ -26,3 +26,11 @@ class PostControllerTest extends TestCase
         $this->assertEquals(200, $response->status());
     }
 }
+
+
+// 46acf080-9d26-428d-85cf-bd5cdf5025b3
+
+// - name: Upload coverage reports to Codecov
+//   uses: codecov/codecov-action@v3
+//   env:
+//     CODECOV_TOKEN: ${{ secrets.CODECOV_TOKEN }}
