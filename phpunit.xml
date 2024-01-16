@@ -12,16 +12,16 @@
             <directory suffix="Test.php">tests/Feature</directory>
         </testsuite>
     </testsuites>
-     <filter>
+     <!-- <filter>
         <whitelist>
             <directory>src</directory>
         </whitelist>
-    </filter>
-    <!-- <source>
+    </filter> -->
+    <source>
         <include>
             <directory>app</directory>
         </include>
-    </source> -->
+    </source>
     <php>
         <env name="APP_ENV" value="testing"/>
         <env name="BCRYPT_ROUNDS" value="4"/>
