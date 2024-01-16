@@ -35,7 +35,7 @@ jobs:
       env:
         DB_CONNECTION: sqlite
         DB_DATABASE: database/database.sqlite
-      run: vendor/bin/phpunit --coverage_cobertura cobertura.xml
+      run: vendor/bin/phpunit --coverage-cobertura cobertura.xml
     - name: Produce the coverage report
       uses: insightsengineering/coverage-action@v2
       with:
